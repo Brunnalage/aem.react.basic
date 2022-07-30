@@ -1,0 +1,95 @@
+{
+  "project-settings": {
+    "code-owner": "React App",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "reactapp",
+    "model-interface-pkg": "com.reactapp.core.models",
+    "model-impl-pkg": "com.reactapp.core.models.impl"
+  },
+  "name": "container-error",
+  "title": "Container Error",
+  "group": "React App - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "containerError",
+        "type": "multifield",
+        "label": "Error container options:",
+        "model-name": "ContainerErrorModel",
+        "use-existing-model": false,
+        "json-expose": true,
+        "items": [
+          {
+            "field": "titleText",
+            "type": "textfield",
+            "label": "Enter title text:",
+            "json-expose": true,
+            "json-property": "titleText"
+            },{
+            "field": "colorTitle",
+            "type": "textfield",
+            "label": "Choose title color:",
+            "json-expose": true,
+            "json-property": "colorTitle"
+          },
+          {
+            "field": "paragraph",
+            "type": "textarea",
+            "label": "Enter paragraph text:",
+            "json-expose": true,
+            "json-property": "paragraph"
+            },{
+            "field": "colorParagraph",
+            "type": "textfield",
+            "label": "Choose paragraph color:",
+            "json-expose": true,
+            "json-property": "colorParagraph"
+          },
+          {
+            "field": "buttonText",
+            "type": "textfield",
+            "label": "Enter button text:",
+            "json-expose": true,
+            "json-property": "buttonText"
+            },{
+            "field": "colorButtonText",
+            "type": "textfield",
+            "label": "Choose the button text color:",
+            "json-expose": true,
+            "json-property": "colorButtonText"
+          },{
+            "field": "colorButton",
+            "type": "textfield",
+            "label": "Choose the button color:",
+            "json-expose": true,
+            "json-property": "colorButton"
+          },
+          {
+            "field": "errorImage",
+            "type": "image",
+            "label": "Choose the error image:",
+            "json-expose": true,
+            "json-property": "errorImage"
+          }
+        ]
+      }
+    ]
+  }
+}
