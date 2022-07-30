@@ -8,6 +8,9 @@ margin-bottom: 12.5rem;
 @media (max-width: 400px) {
     margin-bottom: 3rem;
 }
+@media (max-height: 890px){
+    margin-bottom:2rem;  
+}
 `;
 
 export const HeaderErrorStyled = styled.h3`
