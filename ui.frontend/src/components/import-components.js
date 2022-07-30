@@ -21,6 +21,7 @@ import "./ExperienceFragment/ExperienceFragment";
 import "./XxXxx";
 import MeuComponente from "./MeuComponente";
 import "./HeaderError/HeaderError";
+import "./FooterError/FooterError";
 
 import { MapTo } from "@adobe/aem-react-editable-components";
 
