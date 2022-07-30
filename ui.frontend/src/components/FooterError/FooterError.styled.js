@@ -7,7 +7,7 @@ display: flex;
 justify-content: center;
 gap: 0.313rem;
 @media (max-width: 768px){
-margin-top:15rem;
+margin-top:10rem;
 }
 @media (max-width: 420px){
 margin-top:5.5rem;
