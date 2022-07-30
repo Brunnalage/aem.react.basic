@@ -13,7 +13,7 @@ margin-top:15rem;
 margin-top:7.5rem;
 }
 @media (max-height: 890px){
- margin-top:4rem;  
+ margin-top:3rem;  
 }
  
 `;
