@@ -15,4 +15,13 @@ letter-spacing: -0.035em;
 color: #333333;
 text-align:left;
 margin: 0;
+@media (max-width: 768px){
+    max-width:20rem;
+}
+
+@media (max-width: 400px){
+    font-size: 2.25rem;
+    line-height: 3.5rem;
+    max-width:18.75rem;
+}
 `;
