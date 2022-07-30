@@ -2,12 +2,6 @@ import styled from "styled-components";
 
 export const HeaderContainer = styled.div`
 margin-bottom: 12.5rem;
-@media (max-width: 768px) {
-    margin-bottom: 4rem;
-}
-@media (max-width: 400px) {
-    margin-bottom: 3rem;
-}
 `;
 
 export const HeaderErrorStyled = styled.h3`
