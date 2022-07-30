@@ -1,0 +1,47 @@
+{
+  "project-settings": {
+    "code-owner": "React App",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "reactapp",
+    "model-interface-pkg": "com.reactapp.core.models",
+    "model-impl-pkg": "com.reactapp.core.models.impl"
+  },
+  "name": "header-error",
+  "title": "Header Error",
+  "group": "React App - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "text",
+        "label": "Enter your text here:",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "text"
+      },
+      {
+        "field": "color",
+        "label": "Text color:",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "color"
+      }
+    ]
+  }
+}
