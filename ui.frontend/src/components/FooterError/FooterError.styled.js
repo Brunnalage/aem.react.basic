@@ -10,12 +10,11 @@ gap: 0.313rem;
 margin-top:15rem;
 }
 @media (max-width: 420px){
-margin-top:7.5rem;
+margin-top:5.9rem;
 }
 @media (max-height: 890px){
  margin-top:3rem;  
-}
- 
+} 
 `;
 
 export const TextFooter = styled.span`
