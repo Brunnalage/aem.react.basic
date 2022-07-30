@@ -7,10 +7,13 @@ display: flex;
 justify-content: center;
 gap: 0.313rem;
 @media (max-width: 768px){
-margin-top:6.5rem;
+margin-top:15rem;
 }
 @media (max-width: 420px){
-margin-top:5.2rem;
+margin-top:7.5rem;
+}
+@media (max-height: 890px){
+ margin-top:4rem;  
 }
  
 `;
