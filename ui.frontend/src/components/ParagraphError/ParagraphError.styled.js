@@ -7,7 +7,7 @@ margin-bottom: 3.906rem;
 max-width:18rem;
 }
 @media (max-width: 400px) {
-max-width:100%;
+    max-width: 18rem;
 margin-bottom: 2.5rem;
 }
 `;
