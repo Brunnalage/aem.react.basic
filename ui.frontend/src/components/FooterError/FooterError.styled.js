@@ -10,10 +10,10 @@ gap: 0.313rem;
 margin-top:15rem;
 }
 @media (max-width: 420px){
-margin-top:5.9rem;
+margin-top:5.5rem;
 }
-@media (max-height: 890px){
- margin-top:3rem;  
+@media (max-height: 740px){
+ margin-top:2.4rem;  
 } 
 `;
 
