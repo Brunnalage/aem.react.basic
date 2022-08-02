@@ -18,7 +18,6 @@ export const ParagraphErrorStyled = styled.p`
     font-weight: 400;
     font-size: 1.063rem;
     line-height: 1.6rem;
-    letter-spacing: -0.035em;
-    color: #4F4F4F;
+    letter-spacing: -0.035em;    
     margin: 0;
 `;
